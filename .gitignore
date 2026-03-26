@@ -1,0 +1,13 @@
+# Data files
+*.csv
+*.gz
+*.zip
+
+# Folder
+data/
+
+# Mac system
+.DS_Store
+
+# Python cache
+__pycache__/
