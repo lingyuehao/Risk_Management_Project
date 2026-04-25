@@ -1,0 +1,63 @@
+{
+  "perspective": "institutional credit investor holding LendingClub 2018Q4 active book",
+  "active_ead_$": 9510001923.349998,
+  "l1_reserve_$": 2238969995.1709924,
+  "scenarios": {
+    "Baseline": {
+      "pd_mult": 1.0,
+      "effective_LGD": 0.9,
+      "stress_loss_$": 2055520000.0,
+      "loss_pct_EAD": 21.61
+    },
+    "Adverse": {
+      "pd_mult": 1.5,
+      "effective_LGD": 0.92,
+      "stress_loss_$": 3150550000.0,
+      "loss_pct_EAD": 33.13
+    },
+    "Severely Adverse": {
+      "pd_mult": 2.5,
+      "effective_LGD": 0.94,
+      "stress_loss_$": 5060570000.0,
+      "loss_pct_EAD": 53.21
+    }
+  },
+  "economic_capital": {
+    "ec_total_$": 997365892.8065202,
+    "ec_pct_of_ead": 0.10487546699203901,
+    "K_avg": 0.10512697195006199,
+    "by_grade_$M": {
+      "A": 183.182827570454,
+      "B": 263.9108437829529,
+      "C": 304.0215781196497,
+      "D": 160.83770262396646,
+      "E": 60.60228760901076,
+      "F": 18.279506247027452,
+      "G": 6.531146853458827
+    }
+  },
+  "capital_adequacy": {
+    "available_$": 3236335887.9775124,
+    "by_scenario": {
+      "Baseline": {
+        "required_$": 2055500000.0,
+        "gap_$": 1180800000.0,
+        "verdict": "PASS"
+      },
+      "Adverse": {
+        "required_$": 3150600000.0,
+        "gap_$": 85800000.0,
+        "verdict": "PASS"
+      },
+      "Severely Adverse": {
+        "required_$": 5060600000.0,
+        "gap_$": -1824200000.0,
+        "verdict": "SHORTFALL"
+      }
+    }
+  },
+  "reverse_stress": {
+    "breaking_pd_multiplier": 1.575465927738725,
+    "target_loss_$": 3236335887.9775124
+  }
+}
