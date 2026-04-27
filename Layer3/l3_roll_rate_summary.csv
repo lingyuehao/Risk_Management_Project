@@ -1,0 +1,6 @@
+Roll_Rate,Value
+30->60 roll rate,45.0%
+60->90 roll rate,57.0%
+90->Charge-off rate,70.0%
+30->Current cure rate,45.0%
+60->Current cure rate,15.0%
