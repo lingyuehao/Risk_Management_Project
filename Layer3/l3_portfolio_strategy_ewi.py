@@ -1,17 +1,3 @@
-"""
-L3 -- Portfolio Strategy, Concentration & Early Warning Indicators
-Math 583 Final Project
-
-This script produces all L3 outputs:
-  Part A: Strategic Portfolio Construction
-    1. HHI concentration diagnostics (by purpose, grade, term, state)
-    2. Concentration limits policy scorecard
-    3. EL/EAD contribution mismatch
-    4. Target portfolio mix & efficient frontier
-  Part B: Early Warning Indicators (EWI)
-    5. Four-tier EWI dashboard
-    6. Roll-rate transition matrix
-"""
 
 import pandas as pd
 import numpy as np
