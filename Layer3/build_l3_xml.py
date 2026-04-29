@@ -1,8 +1,3 @@
-"""
-Generates the L3 XML section and inserts it into document.xml.
-Also updates _rels with the 6 new image relationships.
-"""
-
 import re
 
 DOC = r"C:\Users\Owner\Desktop\ids project updated\unpacked_report\word\document.xml"
